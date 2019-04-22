@@ -105,6 +105,7 @@ main() {
                 capacity
 
                 singleton
+                pool
 
                 types
                 not-send

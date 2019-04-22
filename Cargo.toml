@@ -37,8 +37,11 @@ required-features = ["timer-queue"]
 cortex-m = "0.5.8"
 cortex-m-rt = "0.6.7"
 cortex-m-rtfm-macros = { path = "macros", version = "0.4.3" }
-heapless = "0.4.1"
 owned-singleton = "0.1.0"
+
+[dependencies.heapless]
+features = ["min-const-fn"]
+version = "0.4.3"
 
 [dev-dependencies]
 alloc-singleton = "0.1.0"
